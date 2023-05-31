@@ -1,7 +1,5 @@
 # Hardhat Smartcontract Lottery (Raffle) FCC
 
-_This repo has been updated to work with Sepolia over Goerli._
-
 This is a section of the Javascript Blockchain/Smart Contract FreeCodeCamp Course.
 
 _[⌨️ (13:41:02) Lesson 9: Hardhat Smart Contract Lottery](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=49262s)_
@@ -11,8 +9,7 @@ _[⌨️ (13:41:02) Lesson 9: Hardhat Smart Contract Lottery](https://www.youtub
 -   [Hardhat Smartcontract Lottery (Raffle) FCC](#hardhat-smartcontract-lottery-raffle-fcc)
 -   [Getting Started](#getting-started)
     -   [Requirements](#requirements)
-    -   [Quickstart](#quickstart)
-    -   [Typescript](#typescript)
+    
 -   [Usage](#usage)
     -   [Testing](#testing)
         -   [Test Coverage](#test-coverage)
@@ -41,23 +38,9 @@ Checkout the full blockchain course video [here.](https://www.youtube.com/watch?
         -   `yarn --version` and get an output like: `x.x.x`
         -   You might need to [install it with `npm`](https://classic.yarnpkg.com/lang/en/docs/install/) or `corepack`
 
-## Quickstart
+ 
 
-```
-git clone https://github.com/PatrickAlphaC/hardhat-smartcontract-lottery-fcc
-cd hardhat-smartcontract-lottery-fcc
-yarn
-```
-
-## Typescript
-
-If you want to get to typescript and you cloned the javascript version, just run:
-
-```
-git checkout typescript
-yarn
-```
-
+ 
 # Usage
 
 Deploy:
