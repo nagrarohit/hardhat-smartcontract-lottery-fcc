@@ -12,6 +12,7 @@ import "@chainlink/contracts/src/v0.8/VRFConsumerBaseV2.sol";
 import "@chainlink/contracts/src/v0.8/interfaces/VRFCoordinatorV2Interface.sol";
 import "@chainlink/contracts/src/v0.8/interfaces/KeeperCompatibleInterface.sol";
 
+/*Errors*/
 error Raffle__NotEnoughETHentered();
 error Raffle__TransferFailed();
 error RaffleState__NotOpen();
