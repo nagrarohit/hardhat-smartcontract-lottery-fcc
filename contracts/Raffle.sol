@@ -72,7 +72,7 @@ contract Raffle is VRFConsumerBaseV2, KeeperCompatibleInterface {
         s_lastTimeStamp = block.timestamp;
         i_interval = interval;
     }
-
+    /* This is function is for entering the raffle as suggested by its name.*/
     function enterRaffle() public payable {
         if (msg.value < i_entranceFee) {
             revert Raffle__NotEnoughETHentered();
