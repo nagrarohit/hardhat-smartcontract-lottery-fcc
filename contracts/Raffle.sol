@@ -1,11 +1,4 @@
-//Raffle
-//Enter the lottery (by paying some eth)
-//Pick a random number(verifiably random)
-// winner to be selected after every x time
-// Chainlink oracle ==> Automated execution
-
-//SPDX-License-Identifier:MIT
-
+ //SPDX-License-Identifier:MIT
 pragma solidity ^0.8.7;
 
 import "@chainlink/contracts/src/v0.8/VRFConsumerBaseV2.sol";
