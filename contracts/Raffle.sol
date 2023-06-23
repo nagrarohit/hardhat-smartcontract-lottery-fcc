@@ -135,7 +135,7 @@ contract Raffle is VRFConsumerBaseV2, KeeperCompatibleInterface {
         emit WinnerPicked(recentWinner);
     }
 
-    /* view / Pure Functions */
+    /* view / Pure Functions/ And getter functions */
     function getEntranceFee() public view returns (uint256) {
         return i_entranceFee;
     }
